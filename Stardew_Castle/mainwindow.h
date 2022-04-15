@@ -20,6 +20,8 @@ private slots:
 
     void on_textEdit_textChanged();
 
+    void on_pushButton_windowIconTextChanged(const QString &iconText);
+
 private:
     Ui::MainWindow *ui;
 };
